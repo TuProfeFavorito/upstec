@@ -1,0 +1,77 @@
+/*
+Theme Name: Upstec Theme
+Author: Wampy - Frank De La Rosa
+Author URI: http://digitalcook.info
+Description: Desarrollado por Frank para DigitalCook
+Version: 1.0
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+h1,h2,h3,h4,h5,p,ul,li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.x-container {
+    max-width: 1140px;
+    margin: auto;
+    width: calc(100% - 40px);
+}
+.headertop {
+    background: #00A56D;
+}
+.headertop__flex {
+    display: flex;
+    justify-content: end;
+}
+.headertop__right {
+    display: flex;
+}
+.headertop__right .links {
+    display: flex;
+    margin-right: 35px;
+}
+.headertop__right .links li a {
+    font-weight: 600;
+    font-size: 18px;
+}
+.headertop__right .social {
+    display: flex;
+}
+.headertop__right .links li a svg {
+    display: block;
+    margin-right: 10px;
+}
+.headertop__right .links li {
+    margin-right: 30px;
+}
+.headertop__right .links li a {
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.headertop__right .social a {
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+}
+.headertop__right .social {
+    display: flex;
+    align-items: center;
+}
+.headertop {
+    background: #00A56D;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
